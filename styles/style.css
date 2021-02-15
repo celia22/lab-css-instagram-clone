@@ -7,4 +7,97 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+
+main{
+  display: flex;
+  justify-content: center;  
+  background-image: url("../images/frame.png");
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  }
+
+#left-side{
+  margin-top: 6rem;
+  margin-left: 3rem;
+  margin-right: 8rem;
+   
+}
+
+#left-side img{
+  width: 110%;
+}
+
+#rigth-side{
+  margin-top: 8rem;
+  margin-right: 3rem;
+      
+}
+
+#Logo_container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+#button{
+  background-color: #558ab5;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 15px 10px 40px;
+  border: 1px solid #1c5380;
+   border-radius: 1%;
+  
+}
+
+#logInButton > img{
+  position: absolute;
+  right: 72px;
+  top: 10px;   
+  z-index: 3;
+
+}
+
+#text{
+  background-color: white;
+  border-radius: 1%;
+  padding:0.5rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  /*box-shadow: 0 5px 5px -5px , 5px 0 5px -5px #484845;
+  box-shadow:12px 0 15px -4px #484845, -12px 0 8px -4px #484845;*/
+  
+}
+
+#text > h2{
+  color:#1c5380;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+article{
+  font-size: 20px;
+  margin-bottom: 2rem;
+ 
+}
+
+#appstore{
+  margin-right: 2rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 22rem;
+  list-style: none;
+  color:#558ab5;
+  font-weight: bold;
+}
+
+#copyr{
+  color: grey;
 }
